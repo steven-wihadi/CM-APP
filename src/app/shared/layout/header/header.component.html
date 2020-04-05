@@ -1,0 +1,15 @@
+<div class="row header-wraper">
+    <div class="col-md-3 col-sm-12 title-app">
+        <img src="../../../../assets/business-people.svg" alt="CM Logo" />
+        <h1>Customer Manager</h1>
+    </div>
+
+    <div class="col-md-9 col-sm-12 col-12">
+        <nav class="row">
+            <a class="col-md-2 col-sm-4 col-4" (click)="onClickTab('customer/01')" [class.selected]="url === '/customer/01'">Customer</a>
+            <a class="col-md-2 col-sm-4 col-4" (click)="onClickTab('orders')" [class.selected]="url === '/orders'">Orders</a>
+            <a class="col-md-2 col-sm-4 col-4" (click)="onClickTab('about')" [class.selected]="url === '/about'">About</a>
+            <a class="col-md-2 col-sm-4 col-4" (click)="onClickTab('login')" [class.selected]="url === '/login'">Login</a>
+        </nav>
+    </div>
+</div>

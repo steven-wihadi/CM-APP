@@ -1,0 +1,25 @@
+.pagination-shared-component {
+
+    display: flex;
+    margin-bottom: 12px;
+
+    button {
+        background-color: white;
+        box-shadow: none;
+        border: 1px solid #d4d1d1;
+        color: #535454;
+
+        &.prev-btn {
+            border-radius: 4px 0px 0px 4px;
+        }
+
+        &.next-btn {
+            border-radius: 0px 4px 4px 0px;
+        }
+
+        &.selected {
+            background-color: #007cf7;
+            color: white;
+        }
+    }
+}

@@ -1,0 +1,136 @@
+.view-data-shared-component {
+
+    padding: 20px 16px 0px 16px;
+    min-height: 67vh;
+
+    .card-view-mode {
+
+        section {
+            table { width: 100%; }
+        }
+
+        .card-item {
+
+            margin-bottom: 18px;
+
+            .card-header {
+                display: flex;
+                justify-content: space-between;
+                background-color: #007af9;
+                border-radius: 0px;
+                align-items: flex-end;
+                padding: 2px 8px;
+
+                h3 {
+                    color: #eaf0ee;
+                    font-size: 16px;
+                    font-weight: bold;
+                    margin: 0px;
+                }
+
+                button {
+                    box-shadow: none;
+                    border: none;
+                    background-color: transparent;
+                    color: white;
+                    padding: 0px;
+
+                    svg {
+                        vertical-align: baseline;
+                    }
+                }
+            }
+
+            .card-content {
+
+                border-bottom: 1px solid #d4d1d1;
+                border-left: 1px solid #d4d1d1;
+                border-right: 1px solid #d4d1d1;
+                height: 90px;
+                vertical-align: top;
+
+                img {
+                    width: 4em;
+                    display: block;
+                    margin-right: auto;
+                }
+
+                p { 
+                    margin: 0px;
+                    color: #535454;
+                    font-size: 14px;
+                    font-weight: bold;
+                }
+
+                a { 
+                    margin: 0px;
+                    color: #728eb1;
+                    font-size: 14px;
+                    font-weight: bold;
+                }
+            }
+        }
+    }//END OF card-view-mode
+
+    .list-view-mode {
+
+        padding: 0px 24px;
+
+        .list-item { 
+            display: flex;
+            margin-bottom: 8px;
+            padding-bottom: 4px;
+            border-bottom: 1px solid #eae4e4;
+        }
+
+        .list-header {
+            display: flex;
+            align-items: center;
+            vertical-align: center;
+
+            img {
+                width: 30px;
+                height: 30px;
+            }
+
+            h3 {
+                font-size: 16px;
+                margin: 0px;
+            }
+        }
+
+        .list-content-info {
+
+            align-items: center;
+            vertical-align: center;
+
+            p {
+                font-size: 14px;
+                margin: 0px
+            }
+        }
+
+        .list-customer-action {
+
+            a {
+                border: 1px solid gray;
+                border-radius: 20px;
+                font-size: 14px;
+                padding: 4px 6px;
+                margin-left: 8px;
+                color: gray;
+            }
+
+            button {
+                border: 1px solid gray;
+                box-shadow: none;
+                background-color: white;
+                border-radius: 100%;
+                width: 35px;
+                height: 35px;
+                color: gray;
+            }
+        }
+
+    }//END OF .list-view-mode
+}//END OF .view-data-shared-component

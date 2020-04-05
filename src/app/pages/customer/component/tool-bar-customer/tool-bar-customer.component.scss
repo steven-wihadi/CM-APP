@@ -1,0 +1,49 @@
+.toolbar-customer-wraper {
+    padding: 0px 16px;
+
+    .action-btn-group {
+        .action-btn {
+
+            display: block;
+
+            button {
+
+                background-color: white;
+                box-shadow: none;
+                border: none;
+                opacity: .4;
+                display: flex;
+                align-items: last baseline;
+
+                &.active-button:hover, &.selected {
+                    opacity: 1;
+                }
+
+                label {
+                    margin-left: 4px;
+                    font-size: 14px;
+                    margin-bottom: 2px;
+                    cursor: pointer;
+                }
+            }// END OF button
+        }// END OF .action-btn
+    }// END OF .action-btn-group
+
+    .filter-box {
+
+        padding-right: 52px;
+
+        label { 
+            font-size: 14px; 
+            margin-bottom: 2px;
+        }
+
+        input {
+            margin-left: 4px;
+            opacity: .4;
+            width: 100%;
+            padding-left: 4px;
+            height: 24px;
+        }
+    }// END OF .filter-box
+}
